@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className='flex justify-around align items-center'>
       <div className='flex'>
       <Image src="/Image/desinawab_logo.jpg" alt="logo" width={70} height={70} className='rounded-full p-2' />
-      <h1 className='p-4 text-xl text-second font-bold '>Desi Nawab - Royal flavors</h1>
+      <h1 className='p-4 text-2xl text-second font-bold '>Desi Nawab</h1>
       </div>
       <div className='md:hidden lg:hidden cursor-pointer text-white' onClick={toggleMenu} aria-label='Toggle menu' aria-expanded={isOpen}>
       <GiHamburgerMenu size={30}/>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <li className='text-xl text-white  font-semibold hover:text-second'><Link href='Food_Menu'>Food Menu</Link></li>
         <li className='text-xl text-white  font-semibold hover:text-second'><Link href='Dishes'>Dishes</Link></li>
         <li className='text-xl text-white  font-semibold hover:text-second'><Link href='Special'>Special Item</Link></li>
-        <li className='text-xl text-white font-semibold hover:text-second'><Link href='Contact'>Contact</Link></li>
+        <li className='text-xl text-white font-semibold hover:text-second'><Link href='Contact'>Place Order</Link></li>
       </ul>
       </div>
    
@@ -40,7 +40,7 @@ const Navbar = () => {
         <li className='font-semibold hover:text-first'><Link href='Food_Menu' onClick={() => setIsOpen(false)}>Food Menu</Link></li>
         <li className='font-semibold hover:text-first'><Link href='Dishes' onClick={() => setIsOpen(false)}>Dishes</Link></li>
         <li className='font-semibold hover:text-first'><Link href='Special' onClick={() => setIsOpen(false)}>Special Item</Link></li>
-        <li className='font-semibold hover:text-first'><Link href='Contact' onClick={() => setIsOpen(false)}>Contact</Link></li>
+        <li className='font-semibold hover:text-first'><Link href='Contact' onClick={() => setIsOpen(false)}>Place Order</Link></li>
       </ul>
         </div>
         

@@ -118,7 +118,7 @@ const Food_Menu = () => {
 
       {/* Contact & Notes */}
       <div className="text-sm text-black font-bold space-y-2">
-        <p>🔸 All items are freshly prepared with hygienic ingredients.</p>
+        <p>🔸 Items freshly prepared with hygienic ingredients.</p>
         <p>🔸 Custom spice levels available on request.</p>
         <p>🔸 Delivery within Karachi with charges 250/-.</p>
         <p>🔸 Free delivery on orders over Rs. 2000.</p>
@@ -127,6 +127,14 @@ const Food_Menu = () => {
           <a href="tel:+923347753424" className="text-red-700 underline">
             +923347753424
           </a>
+          <a
+          href="https://wa.me/923347753424"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-pink-700 hover:bg-green-600 text-white text-md font-semibold py-1 px-2 ml-2 mt-2 rounded transition duration-200"
+        >
+          👉 Click here to order on WhatsApp
+        </a>
         </p>
        
       </div>
